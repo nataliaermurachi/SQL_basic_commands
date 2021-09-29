@@ -1,4 +1,4 @@
-![MySql image](https://thumbs.dreamstime.com/z/laptop-computer-displaying-logo-mysql-poznan-pol-feb-open-source-relational-database-management-system-rdbms-213456212.jpg)
+
 
 After connecting to MySql server, check for existing databases:
 

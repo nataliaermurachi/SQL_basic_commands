@@ -20,6 +20,8 @@ After connecting to MySql server, check for existing databases:
 
 > `SELECT database();`
 
+[More details and exemple](https://github.com/nataliaermurachi/mysql_basic_commands/blob/main/database.md)
+
 ---
 
 > *Tables* are a collection of data structured in columns(headers) and rows(actual data).
@@ -42,6 +44,8 @@ After connecting to MySql server, check for existing databases:
 
 > `DROP TABLE <tablename>;` 
 
+[More details and exemple](https://github.com/nataliaermurachi/mysql_basic_commands/blob/main/table.md)
+
 ---
 
 * Inserting data into the table:
@@ -61,3 +65,5 @@ VALUES      (value, value),
 Use this command to see the warning's message:
 
 > `SHOW WARNINGS;`
+
+[More details and exemple](https://github.com/nataliaermurachi/mysql_basic_commands/blob/main/insertData.md)

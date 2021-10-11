@@ -69,6 +69,14 @@ Use this command to see the warning's message:
 > `SHOW WARNINGS;`
 
 [More details and exemple](https://github.com/nataliaermurachi/mysql_basic_commands/blob/main/insertData.md)
+---
 
-Constraints:
+> Constraints: 
+
 [More details and exemple](https://github.com/nataliaermurachi/mysql_basic_commands/blob/main/Constraints.md)
+
+---
+
+> Queries:
+[More details and exemple](https://github.com/nataliaermurachi/mysql_basic_commands/blob/main/queries.md)
+

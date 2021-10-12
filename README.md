@@ -81,3 +81,39 @@ Use this command to see the warning's message:
 > Queries:
 [More details and exemple](https://github.com/nataliaermurachi/mysql_basic_commands/blob/main/queries.md)
 
+---
+
+### Agregates
+
+> `Count()` - a function that takes the name of a column as an argument and counts the number of non-empty values in that column.
+
+`SELECT COUNT(column_name) FROM table;`
+
+> `Sum()` - is a function that takes the name of a column as an argument snd returns the sum of all the values in that column.
+
+`SELECT SUM(column_name) FROM table;`
+
+> `Max()` and `Min()` take the name of a column as an argument and returns the largest or the smalest value in that column.
+
+`SELECT MIN(column_name) FROM table;`
+
+`SELECT MAX(column_name) FROM table;`
+
+>`Avg()` - is a function that takes a column name as an argument and returns the average value for that column.
+
+`SELECT AVG(column_name) FROM table;`
+
+> `Round()` - is a function that takes a column name and an integer as parameters. It rounds the values in the column to the number of decimal places specified by the integer.
+
+`SELECT ROUND(column_name, integer) FROM table;`
+
+> `GROUP BY` - is a clause that is used wit agregate functions and SElect statement to arrange identical data into *groups*. (comes after `WHERE` but before `ORDER BY` or `LIMIT`).
+
+`SELECT column, function FROM table GROUP BY column_name;`
+
+Sometimes `GROUP BY` is used to group the columns by a calculation done on a column:
+
+`SELECT column_name, function(column) FROM table GROUP BY function;`
+
+> `HAVING` - allows to filter which groups to include, it *filters groups*. Comes after `GROUP BY` and before `ORDER BY` and `LIMIT`
+
